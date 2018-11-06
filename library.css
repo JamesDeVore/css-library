@@ -1,0 +1,89 @@
+.col-1 {
+  float: left;
+  width: 8.333%;
+  border: 1px solid red;
+}
+
+.col-2 {
+  float: left;
+  width: 16.666%;
+  border: 1px solid red;
+}
+
+.col-3 {
+  float: left;
+  width: 25%;
+  border: 1px solid red;
+}
+
+.col-4 {
+  float: left;
+  width: 33.333%;
+  border: 1px solid red;
+}
+
+.col-5 {
+  float: left;
+  width: 41.666%;
+  border: 1px solid red;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+  border: 1px solid red;
+}
+
+.col-7 {
+  float: left;
+  width: 58.333%;
+  border: 1px solid red;
+}
+
+.col-8 {
+  float: left;
+  width: 66.666%;
+  border: 1px solid red;
+}
+
+.col-9 {
+  float: left;
+  width: 75%;
+  border: 1px solid red;
+}
+
+.col-10 {
+  float: left;
+  width: 83.333%;
+  border: 1px solid red;
+}
+
+.col-11 {
+  float: left;
+  width: 91.666%;
+  border: 1px solid red;
+}
+
+.col-12 {
+  float: left;
+  width: 100%;
+  border: 1px solid red;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
